@@ -1,3 +1,12 @@
+<style lang="stylus">
+    .transparent-input, .transparent-input:focus,
+        border none
+        border-color transparent
+        box-shadow none
+        padding 0
+        outline none
+</style>
+
 <template>
     <div>
         <div class="tags-editor-container" @click="onEditorClick">
